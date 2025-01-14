@@ -1,0 +1,459 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* ......... common styles........ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Fira Sans;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h3 {
+    color: rgb(14, 14, 14, 1);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    
+}
+h4{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight:700; 
+  line-height: 24;
+  margin: 24px 0 12px;
+}
+p{
+  color: rgba(14, 14, 14, 0.7);
+  /* font-family: Fira Sans; */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+button{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+}
+.btn-one{
+  padding: 17px 36px;
+}
+.btn-tow{
+  padding: 13px 26px;
+}
+.btn-three{
+  padding: 11px 20px;
+  margin-bottom: 32px;
+}
+.btn-primary {
+  padding: 14px 30px;
+  background: #026f54;
+  color: #ffff;
+  transition: all 0.3s ease-in;
+}
+.btn-primary:hover{
+  background:#67b6eee0;
+}
+.txt-color{
+  color: rgb(14, 14, 14, 1);
+  font-weight: 700;
+}
+.text-raguler{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.mar-section{
+  margin-bottom: 80px;
+}
+body {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+
+/* .................. navbar styles .................. */
+nav {
+  background: rgb(245, 245, 245);
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  button {
+    padding: 15px 30px;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    color: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    cursor: pointer;
+  }
+  
+}
+
+/*................ banner style ........... */
+
+.banner {
+  margin-top: 20px;
+}
+.banner .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  padding: 80px 55px;
+  .title-name {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+  }
+  .banner-text .section-title {
+    font-size: 56px;
+    line-height: 67px;
+    /* margin-top: 15px; */
+  }
+  button {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-top: 24px
+  };
+}
+
+/* ................ pillars section styles ............... */
+.pillars-carts {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 24px;
+  .cart {
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+    h4 {
+      line-height: 24px;
+    }
+  };
+}
+
+/* .............   vision section styles ................... */
+
+.vision {
+   p{
+    margin: 12px 0 32px;
+   }
+
+  .vision-carts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    gap: 24px;
+    .cart {
+      width: 410px;
+      height: 325px;
+      padding: 30px;
+      border-radius: 8px;
+    }
+    .one{
+      background: rgba(84, 144, 245, 0.2);
+      .btn-blue{
+        background-color: rgba(84, 144, 245, 1);
+      }
+    }
+    .two{
+      background-color: rgba(198, 228, 214, 1);
+      .btn-green {
+          background-color: rgba(9, 161, 92, 1);
+      }
+    }
+    .three{
+     background-color: rgba(247, 235, 207, 1); 
+      .btn-yellow {
+          background: rgba(255, 194, 57, 1);
+      }
+    } 
+    h4{
+      line-height: 24px;
+    }
+  }
+  .text-aria{ 
+    /* width: 1280px;
+    height: 256px; */
+    position: relative;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    h4{
+      line-height: 24px;
+    }
+  }
+  
+  .description{
+    background-image: url(../images/quote-bg.png);
+    background-repeat: no-repeat;
+    
+  }
+}
+
+/* ............... opinion style ..................... */
+table {
+  width: 100%;
+  padding: 32px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  border-collapse: collapse;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  background: rgb(198, 228, 214);
+  margin-top: 24px;
+
+  h5 {
+    color: rgb(14, 14, 14, 1);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  };
+}
+
+td {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px 24px;
+  color: rgb(14, 14, 14);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+
+  select {
+    padding: 12px 14px;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    cursor: pointer;
+    margin-right: -80px;
+  };
+}
+th {
+  padding: 24px;
+  box-sizing: border-box;
+  background: rgb(198, 228, 214);
+}
+
+/* ................. news section styles .............. */
+.news {
+  .text-content p {
+    margin-bottom: 32px;
+  }
+  .news-photo {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    padding: 48px;
+
+    .satelite img {
+      border-radius: 24px;
+      margin-right: 32px;
+    }
+    .description h3 {
+      margin-bottom: 12px;
+    }
+    .description img {
+      display: block;
+      margin-bottom: 12px;
+    }
+
+    .description span {
+      color: rgba(14, 14, 14, 0.7);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+    .description > span {
+      margin-right: 12px;
+    }
+    .description p {
+      margin: 12px 0 32px;
+    }
+  }
+
+  .recent-photo {
+    margin: 24px 0;
+  };
+}
+
+/* .................... donate section styles  */
+
+.donate {
+  .text-content {
+    margin: 0 auto;
+    text-align: center;
+
+    h3 {
+      margin-bottom: 24px;
+    }
+    p {
+      width: 1104px;
+      margin: 0 auto;
+    }
+  }
+
+  .amounts {
+    width: 1071px;
+    height: 128px;
+    margin: 32px auto;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .amount-cart {
+    padding: 40px;
+    display: inline-block;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.872);
+    /* margin-top: 32px; */
+    cursor: pointer;
+  }
+  .one:hover {
+    background-color: rgb(248, 121, 121);
+  }
+  .two:hover {
+    background: rgb(206, 241, 125);
+    transition: all 0.3s ease-in;
+  }
+  .three{
+    background-color: rgba(198, 228, 214, 1);
+  }
+  .three:hover{
+    background-color: rgb(244, 192, 125);
+  }
+  .fore:hover{
+    background-color: rgb(163, 237, 90);
+    transition: all 0.6s ease-in;
+  }
+  .other-amount { 
+     text-align: center;
+
+    .taka {
+      width: 1032px;
+      height: 64px;
+      margin: 32px auto;
+      input {
+        width: 100%;
+        padding: 20px;
+        background: rgb(255, 255, 255);
+        border: 1px solid rgba(14, 14, 14, 0.15);
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      input::placeholder {
+        color: rgba(14, 14, 14, 0.3);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+      }
+      input:hover{
+         background-color: rgb(192, 243, 226);
+         border: none;
+      }
+    }
+  }
+}
+
+/* ................newsletter section styles.............. */
+
+.newsletter {
+  .newsletter-content {
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 265px;
+    margin-bottom: 80px;
+
+    h3 {
+      margin-bottom: 16px;
+    }
+    p {
+      margin-bottom: 24px;
+    }
+    .address {
+      margin-bottom: 24px;
+      display: flex;
+
+      button {
+        border-radius: 0px 8px 8px 0px;
+      }
+
+      input {
+        width: 100%;
+        background: rgb(255, 255, 255);
+        padding: 18px 40px;
+        border-radius: 8px 0px 0px 8px;
+        border: none;
+        cursor: pointer;
+      }
+      input::placeholder {
+        color: rgba(14, 14, 14, 0.3);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+      }
+    }
+  };
+}
+
+/* footer section  styles */
+.footer{
+  margin: auto;
+  .media-aria {
+    text-align: center;
+    .media-title {
+      color: rgb(14, 14, 14);
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 38px;
+      padding: 32px;
+      border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    }
+    .media-link{
+      padding: 20px;
+    }
+    .media-link a {
+      margin-right: 23px;
+      cursor: pointer;
+    };
+  }
+}
