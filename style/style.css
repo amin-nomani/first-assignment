@@ -12,27 +12,26 @@
   margin: 0 auto;
 }
 h3 {
-    color: rgb(14, 14, 14, 1);
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 38px;
-    
+  color: rgb(14, 14, 14, 1);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
 }
-h4{
+h4 {
   color: rgba(14, 14, 14, 0.8);
   font-size: 20px;
-  font-weight:700; 
+  font-weight: 700;
   line-height: 24;
   margin: 24px 0 12px;
 }
-p{
+p {
   color: rgba(14, 14, 14, 0.7);
   /* font-family: Fira Sans; */
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
 }
-button{
+button {
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;
@@ -41,13 +40,13 @@ button{
   border: none;
   color: rgba(255, 255, 255, 1);
 }
-.btn-one{
+.btn-one {
   padding: 17px 36px;
 }
-.btn-tow{
+.btn-tow {
   padding: 13px 26px;
 }
-.btn-three{
+.btn-three {
   padding: 11px 20px;
   margin-bottom: 32px;
 }
@@ -57,26 +56,25 @@ button{
   color: #ffff;
   transition: all 0.3s ease-in;
 }
-.btn-primary:hover{
-  background:#67b6eee0;
+.btn-primary:hover {
+  background: #67b6eee0;
 }
-.txt-color{
+.txt-color {
   color: rgb(14, 14, 14, 1);
   font-weight: 700;
 }
-.text-raguler{
+.text-raguler {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   color: rgba(14, 14, 14, 0.7);
 }
-.mar-section{
+.mar-section {
   margin-bottom: 80px;
 }
 body {
   background-color: rgba(255, 255, 255, 1);
 }
-
 
 /* .................. navbar styles .................. */
 nav {
@@ -97,7 +95,6 @@ nav {
     line-height: 22px;
     cursor: pointer;
   }
-  
 }
 
 /*................ banner style ........... */
@@ -126,8 +123,8 @@ nav {
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
-    margin-top: 24px
-  };
+    margin-top: 24px;
+  }
 }
 
 /* ................ pillars section styles ............... */
@@ -147,19 +144,19 @@ nav {
     h4 {
       line-height: 24px;
     }
-  };
+  }
 }
 
 /* .............   vision section styles ................... */
 
 .vision {
-   p{
+  p {
     margin: 12px 0 32px;
-   }
+  }
 
   .vision-carts {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;
     margin-bottom: 32px;
     gap: 24px;
@@ -169,29 +166,29 @@ nav {
       padding: 30px;
       border-radius: 8px;
     }
-    .one{
+    .one {
       background: rgba(84, 144, 245, 0.2);
-      .btn-blue{
+      .btn-blue {
         background-color: rgba(84, 144, 245, 1);
       }
     }
-    .two{
+    .two {
       background-color: rgba(198, 228, 214, 1);
       .btn-green {
-          background-color: rgba(9, 161, 92, 1);
+        background-color: rgba(9, 161, 92, 1);
       }
     }
-    .three{
-     background-color: rgba(247, 235, 207, 1); 
+    .three {
+      background-color: rgba(247, 235, 207, 1);
       .btn-yellow {
-          background: rgba(255, 194, 57, 1);
+        background: rgba(255, 194, 57, 1);
       }
-    } 
-    h4{
+    }
+    h4 {
       line-height: 24px;
     }
   }
-  .text-aria{ 
+  .text-aria {
     /* width: 1280px;
     height: 256px; */
     position: relative;
@@ -199,15 +196,14 @@ nav {
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
-    h4{
+    h4 {
       line-height: 24px;
     }
   }
-  
-  .description{
+
+  .description {
     background-image: url(../images/quote-bg.png);
     background-repeat: no-repeat;
-    
   }
 }
 
@@ -232,7 +228,7 @@ table {
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
-  };
+  }
 }
 
 td {
@@ -255,7 +251,7 @@ td {
     line-height: 19px;
     cursor: pointer;
     margin-right: -80px;
-  };
+  }
 }
 th {
   padding: 24px;
@@ -303,7 +299,7 @@ th {
 
   .recent-photo {
     margin: 24px 0;
-  };
+  }
 }
 
 /* .................... donate section styles  */
@@ -351,18 +347,18 @@ th {
     background: rgb(206, 241, 125);
     transition: all 0.3s ease-in;
   }
-  .three{
+  .three {
     background-color: rgba(198, 228, 214, 1);
   }
-  .three:hover{
+  .three:hover {
     background-color: rgb(244, 192, 125);
   }
-  .fore:hover{
+  .fore:hover {
     background-color: rgb(163, 237, 90);
     transition: all 0.6s ease-in;
   }
-  .other-amount { 
-     text-align: center;
+  .other-amount {
+    text-align: center;
 
     .taka {
       width: 1032px;
@@ -383,9 +379,9 @@ th {
         line-height: 24px;
         text-align: center;
       }
-      input:hover{
-         background-color: rgb(192, 243, 226);
-         border: none;
+      input:hover {
+        background-color: rgb(192, 243, 226);
+        border: none;
       }
     }
   }
@@ -399,7 +395,7 @@ th {
     background: rgb(198, 228, 214);
     margin: 0 auto;
     text-align: center;
-    padding: 80px 265px;
+    padding: 30px 50px;
     margin-bottom: 80px;
 
     h3 {
@@ -432,11 +428,11 @@ th {
         text-align: center;
       }
     }
-  };
+  }
 }
 
 /* footer section  styles */
-.footer{
+.footer {
   margin: auto;
   .media-aria {
     text-align: center;
@@ -448,12 +444,122 @@ th {
       padding: 32px;
       border-bottom: 1px solid rgba(14, 14, 14, 0.15);
     }
-    .media-link{
+    .media-link {
       padding: 20px;
     }
     .media-link a {
       margin-right: 23px;
       cursor: pointer;
-    };
+    }
   }
+}
+/* responsive media query */
+@media screen and (max-width: 576px) {
+  .aria,
+  .pillars-carts,
+  .allcard,
+  .te-title,
+  .news-photo,
+  .amounts,
+  .amin,
+  .other-amount,
+  .amount-cart {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .recent-photo {
+    flex-direction: column-reverse;
+  }
+  .f-table,
+  .amin,
+  .amounts,
+  .other-amount {
+    gap: 14px;
+  }
+  .newsletter-content {
+    padding: 10px 20px;
+    margin: 20px 25px;
+    text-align: left;
+  }
+  .amount-cart,
+  select {
+    text-align: center;
+  }
+  /* .team-img-area,
+  .some-cards,
+  .sponsor-companies {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  } */
+  /* .some-cards {
+    justify-items: center;
+    gap: 24px;
+  } */
+  /* .team-text-area {
+    margin-top: 30px;
+  } */
+  /* #experience {
+    margin-top: 20px;
+    margin-left: 20px;
+  } */
+}
+
+/* medium size device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .aria,
+  .pillars-carts,
+  .allcard,
+  .te-title,
+  .news-photo,
+  .amounts,
+  .amin,
+  .other-amount,
+  .btn-blue {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .amount-cart,
+  select {
+    text-align: center;
+  }
+  .recent-photo {
+    flex-direction: column-reverse;
+  }
+  .f-table,
+  .amin,
+  .amounts,
+  .other-amount {
+    gap: 14px;
+  }
+  .newsletter-content {
+    padding: 10px 20px;
+    margin: 20px 25px;
+    text-align: left;
+  }
+  .taka,
+  .btn-primary {
+    margin: 15px auto;
+  }
+  .amounts {
+    margin-bottom: 20px;
+  }
+  /* .teams,
+  .features {
+    flex-direction: column;
+  } */
+  /* .team-text-area {
+    margin: 35px auto;
+  } */
+  /* .sponsor-companies,
+  .some-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    justify-items: center;
+  } */
+  /* #experience {
+    margin-top: 20px;
+    margin-left: 20px;
+  } */
 }
